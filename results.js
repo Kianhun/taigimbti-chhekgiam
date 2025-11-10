@@ -3,15 +3,15 @@ const personalities = {
     // 記得將我們之前討論過的台語翻譯加進來
     "INFP": {
         name: "公親 - 調停者",
-        description: "公親ê外表恬恬仔，毋過in ê心內真燒烙。In gâu軟心、重情重義，想欲kah別人建立深刻ê關係，佮意共人鬥相共，chóng--sī有當時仔會感覺家己是孤鳥插人群，徛佇一个干焦屬於家己ê世界。"
+        description: "你ê外表恬恬仔，毋過心內真燒烙。你gâu軟心、重情重義，想欲kah別人建立深刻ê關係，佮意共人鬥相共，chóng--sī有當時仔會感覺家己是孤鳥插人群，徛佇一个干焦屬於家己ê世界。"
     },
     "INFJ": {
-        name: "顧問 - 預言家",
-        description: "他們是心思細膩的策略家，能夠洞察人性並為他人指引方向。他們看事看得很透，也重情重義。雖然閉思，但內心充滿為世界帶來改變的熱情。"
+        name: "指點燈 - 提倡者",
+        description: "你是一个心思幼路ê人，想欲追求真理，會為著公平正義勇敢喝聲。你有一寡固定深交ê朋友，嘛定定暗中觀察別人，拄著狀況ê時，用同理心化解in ê難關。"
     },
     "ENFJ": {
         name: "戰腳 - 主角",
-        description: "你是真gâu做代誌ê人，會當chhōa-niá同伴向前行。你充滿熱情，人緣闊，正正是一个天生ê領導者。"
+        description: "你是真gâu做代誌ê人，會當chhōa-niá同伴向前行。你充滿熱情，人緣闊，正正是一个天生ê領導者！"
     },
     "ENTJ": {
         name: "指揮官 - 領袖",
@@ -45,6 +45,7 @@ if (personalityType && personalities[personalityType]) {
     document.getElementById('description').innerText = "請重新進行測驗。";
 
 }
+
 
 
 
