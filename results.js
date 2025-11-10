@@ -30,7 +30,8 @@ const personalities = {
 
 // 讀取網址列的參數
 const urlParams = new URLSearchParams(window.location.search);
-const personalityType = urlParams.get('type');
+// 新增 .toUpperCase()，確保讀到的 type 永遠是大寫
+const resultType = urlParams.get('type').toUpperCase();
 
 // 如果找到性格類型，就顯示內容
 if (personalityType && personalities[personalityType]) {
@@ -45,6 +46,7 @@ if (personalityType && personalities[personalityType]) {
     document.getElementById('description').innerText = "請重新進行測驗。";
 
 }
+
 
 
 
