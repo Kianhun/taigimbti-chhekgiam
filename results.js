@@ -1,13 +1,12 @@
 // 儲存 16 種性格的描述內容
 const personalities = {
-    // 記得將我們之前討論過的台語翻譯加進來
     "INFP": {
         name: "公親 - 調停者",
         description: "你看起來恬恬仔，毋過心內真燒烙。你gâu軟心、重情重義，想欲kah別人建立深刻ê關係，佮意共人鬥相共，chóng--sī有當時仔會感覺家己是孤鳥插人群，徛佇一个干焦屬於家己ê世界。"
     },
     "INFJ": {
-        name: "𤆬路雞 - 提倡者",
-        description: "你是一个心思幼路ê人，想欲追求真理，會為著公平正義勇敢喝聲。你有一寡固定深交ê朋友，嘛定定暗中觀察別人，拄著狀況ê時，用同理心化解in ê難關。"
+        name: "指點燈 - 提倡者",
+        description: "你是一个心思幼路 ê 人，想欲追求真理，會為著公平正義勇敢喝聲。你嘛定定會暗中觀察別人，用同理心化解人 ê 難關。心內有遠大 ê 理想，毋甘願平平過，愛為世界立功勞。對你來講，成功毋是看身價，是看做代誌 ê 意義。你看事看真透，做事靠家己 ê 智慧 kap 直覺。"
     },
     "ENFJ": {
         name: "戰腳 - 主角",
@@ -25,31 +24,5 @@ const personalities = {
         name: "後勤 - 物流師",
         description: "你是恬恬仔做閣gâu揹重擔ê人。做代誌照起工，所有的細節你攏會照顧甲到。你毋是ài展風神ê角色，毋過團體若有你絕對穩觸觸！"
     }
-    // 你可以繼續在這裡新增其他 11 個性格的資料...
+    // 後續新增的項目會從這裡開始，記得在最後一個項目後不要加逗號
 };
-
-// 讀取網址列的參數
-const urlParams = new URLSearchParams(window.location.search);
-// 新增 .toUpperCase()，確保讀到的 type 永遠是大寫
-const resultType = urlParams.get('type').toUpperCase();
-
-// 如果找到性格類型，就顯示內容
-if (personalityType && personalities[personalityType]) {
-    const result = personalities[personalityType];
-    
-    // 將結果顯示在網頁上
-    document.getElementById('personality-type').innerText = result.name;
-    document.getElementById('description').innerText = result.description;
-} else {
-    // 如果沒有找到，顯示錯誤訊息
-    document.getElementById('personality-type').innerText = "找不到你的性格！";
-    document.getElementById('description').innerText = "請重新進行測驗。";
-
-}
-
-
-
-
-
-
-
