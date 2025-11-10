@@ -1,9 +1,9 @@
 // 儲存 16 種性格的描述內容
 const personalities = {
     // 記得將我們之前討論過的台語翻譯加進來
-    "INFP": {
-        name: "公親 - 哲學家",
-        description: "公親是一个充满理想，富有同情心，且总是努力为世界带来更美好的改变的人。他们重情重义，心肝软，就像是厝边头尾的知己，总是在你最需要时出现，给予温柔的陪伴和支持。他们看起来闭思，但内心世界非常丰富。他们喜欢跟着起毛走，并且伸勼去迎接各种挑战。"
+  "INFP": {
+        name: "公親 - 調停者",
+        description: "公親ê外表恬恬仔，毋過in ê心內真燒烙，愛做眠夢，頭殼底滿滿ê故事。In gâu軟心、重情重義，對音樂、藝術kap大自然ê感情攏足深。In想欲kah別人建立深刻ê關係，佮意共人鬥相共，毋過有當時仔會感覺家己是孤鳥插人群，徛佇一个干焦屬於家己ê世界。"
     },
     "INFJ": {
         name: "顧問 - 預言家",
@@ -45,3 +45,4 @@ if (personalityType && personalities[personalityType]) {
     document.getElementById('description').innerText = "請重新進行測驗。";
 
 }
+
