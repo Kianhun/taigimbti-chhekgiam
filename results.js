@@ -3,7 +3,7 @@ const personalities = {
     // 記得將我們之前討論過的台語翻譯加進來
     "INFP": {
         name: "公親 - 調停者",
-        description: "公親ê外表恬恬仔，毋過in ê心內真燒烙，愛做眠夢，頭殼底滿滿ê故事。In gâu軟心、重情重義，對音樂、藝術kap大自然ê感情攏足深。In想欲kah別人建立深刻ê關係，佮意共人鬥相共，毋過有當時仔會感覺家己是孤鳥插人群，徛佇一个干焦屬於家己ê世界。"
+        description: "公親ê外表恬恬仔，毋過in ê心內真燒烙。In gâu軟心、重情重義，想欲kah別人建立深刻ê關係，佮意共人鬥相共，chóng--sī有當時仔會感覺家己是孤鳥插人群，徛佇一个干焦屬於家己ê世界。"
     },
     "INFJ": {
         name: "顧問 - 預言家",
@@ -45,5 +45,6 @@ if (personalityType && personalities[personalityType]) {
     document.getElementById('description').innerText = "請重新進行測驗。";
 
 }
+
 
 
