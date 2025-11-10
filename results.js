@@ -6,7 +6,7 @@ const personalities = {
         description: "你ê外表恬恬仔，毋過心內真燒烙。你gâu軟心、重情重義，想欲kah別人建立深刻ê關係，佮意共人鬥相共，chóng--sī有當時仔會感覺家己是孤鳥插人群，徛佇一个干焦屬於家己ê世界。"
     },
     "INFJ": {
-        name: "指點燈 - 提倡者",
+        name: "𤆬路雞 - 提倡者",
         description: "你是一个心思幼路ê人，想欲追求真理，會為著公平正義勇敢喝聲。你有一寡固定深交ê朋友，嘛定定暗中觀察別人，拄著狀況ê時，用同理心化解in ê難關。"
     },
     "ENFJ": {
@@ -45,6 +45,7 @@ if (personalityType && personalities[personalityType]) {
     document.getElementById('description').innerText = "請重新進行測驗。";
 
 }
+
 
 
 
