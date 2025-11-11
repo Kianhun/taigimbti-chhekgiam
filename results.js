@@ -9,7 +9,7 @@ const personalities = {
         description: "你是一个心思幼路ê人，想欲追求真理，會為著公平正義勇敢喝聲。你嘛定定暗中觀察別人，若拄著啥物狀況，會用同理心幫贊人度過難關。"
     },
     "ENFJ": {
-        name: '<a href=https://chhoe.taigi.info/TaijitToaSutian/10981">戰腳</a> - 主角',
+        name: '<a href="https://chhoe.taigi.info/TaijitToaSutian/10981">戰腳</a> - 主角',
         description: "你毋但gâu做代誌，閣會陪伴身軀邊ê人做陣向前行，互相鼓舞。你充滿熱情，人緣闊，逐家攏會染著你ê精神！"
     },
     "ENTJ": {
@@ -26,6 +26,7 @@ const personalities = {
     }
     // 後續新增的項目會從這裡開始，記得在最後一個項目後不要加逗號
 };
+
 
 
 
