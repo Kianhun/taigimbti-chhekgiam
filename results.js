@@ -29,7 +29,7 @@ const personalities = {
         description: "你面對挑戰ê時陣，跤手會先做頭前，一面行動一面修正。"
     },
     "ENTP": {
-        name: "諫諍 - 辯論家",
+        name: "諫諍（chiām-tēng） - 辯論家",
         description: "你佮意參別人做伙為著社會上有爭議ê代誌來激頭殼。"
     },
     "ESFP": {
@@ -62,6 +62,7 @@ const personalities = {
     }
     // 後續新增的項目會從這裡開始，記得在最後一個項目後不要加逗號
 };
+
 
 
 
