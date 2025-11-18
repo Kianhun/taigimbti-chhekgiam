@@ -1,46 +1,46 @@
 const questions = [
     // 外向 (E) vs. 內向 (I)
     {
-        question: "你的個性較像什麼？",
+        question: "下面佗一个論述較符合你ê個性？",
         dichotomy: 'EI',
         answers: [
-            { text: "非常閉思", score: -3 },
-            { text: "有點閉思", score: -1 },
-            { text: "不好說", score: 0 },
-            { text: "有點蝦趴", score: 1 },
-            { text: "非常蝦趴", score: 3 }
+            { text: "誠閉思", score: -3 },
+            { text: "有較閉思", score: -1 },
+            { text: "無的確", score: 0 },
+            { text: "不止仔鑠奅", score: 1 },
+            { text: "誠鑠奅", score: 3 }
         ]
     },
     {
-        question: "在派對裡，你會？",
+        question: "佇一个聚會內底，你會偏向按怎kah人chih-chiap？",
         dichotomy: 'EI',
         answers: [
-            { text: "靜靜地觀察，等待別人開口。", score: -3 },
-            { text: "主動去認識大家，跟大家聊天。", score: 3 }
+            { text: "恬恬仔觀察，等待別人開喙。", score: -3 },
+            { text: "主動去揣別人開講。", score: 3 }
         ]
     },
 
     // 實感 (S) vs. 直覺 (N)
     {
-        question: "當你在看電影時，你比較注意？",
+        question: "你咧看電影ê時陣會較注意？",
         dichotomy: 'SN',
         answers: [
-            { text: "電影的細節、場景和對白。", score: -3 },
-            { text: "電影背後的意義和隱藏的訊息。", score: 3 }
+            { text: "電影的細節、場景kah口白。", score: -3 },
+            { text: "藏佇演員ê行為kah對話背後的意義和訊息。", score: 3 }
         ]
     },
     {
-        question: "你覺得什麼比較重要？",
+        question: "你感覺下面佗一个較重要？",
         dichotomy: 'SN',
         answers: [
-            { text: "當下的事實和實際的經驗。", score: -3 },
-            { text: "未來的可能性和新的想法。", score: 3 }
+            { text: "眼前ê事實和實際ê經驗。", score: -3 },
+            { text: "未來可能發生ê代誌和新ê想法。", score: 3 }
         ]
     },
     
     // 思考 (T) vs. 情感 (F)
     {
-        question: "當朋友找你訴苦時，你會？",
+        question: "若朋友來揣你khām-phu-lián ê時，你會按怎反應？",
         dichotomy: 'TF',
         answers: [
             { text: "先分析問題，給他實際的解決方案。", score: -3 },
@@ -48,7 +48,7 @@ const questions = [
         ]
     },
     {
-        question: "做決定時，你通常會？",
+        question: "做決定時，你通常會考慮啥物？",
         dichotomy: 'TF',
         answers: [
             { text: "用邏輯和客觀的標準來判斷。", score: -3 },
@@ -162,4 +162,5 @@ function showResult() {
     // 它會將結果作為參數，傳送到結果頁面
     window.location.href = `result.html?type=${result}`;
 }
+
 showQuestion();
