@@ -40,19 +40,19 @@ const questions = [
     
     // 思考 (T) vs. 情感 (F)
     {
-        question: "若朋友來揣你khām-phu-lián ê時，你會按怎反應？",
+        question: "若朋友來揣你怨嘆ê時，你會按怎反應？",
         dichotomy: 'TF',
         answers: [
-            { text: "先分析問題，給他實際的解決方案。", score: -3 },
-            { text: "先安撫他的情緒，給他一個抱抱。", score: 3 }
+            { text: "先分析問題，予伊實際ê處理方案。", score: -3 },
+            { text: "先安搭伊ê情緒，共攬一下。", score: 3 }
         ]
     },
     {
-        question: "做決定時，你通常會考慮啥物？",
+        question: "做決定ê時，你通常會考慮啥物？",
         dichotomy: 'TF',
         answers: [
-            { text: "用邏輯和客觀的標準來判斷。", score: -3 },
-            { text: "考慮所有人的感受和和諧。", score: 3 }
+            { text: "用邏輯和客觀ê標準來判斷。", score: -3 },
+            { text: "考慮所有人ê感受kah和諧。", score: 3 }
         ]
     },
 
@@ -66,11 +66,11 @@ const questions = [
         ]
     },
     {
-        question: "你怎麼看待死線 (Deadline)？",
+        question: "佗一句俗諺較符合你對期限截止ê sim-chiâⁿ？",
         dichotomy: 'JP',
         answers: [
-            { text: "把它當成目標，提早完成。", score: -3 },
-            { text: "最後一刻再說，反正來得及。", score: 3 }
+            { text: "好天著拍算雨來糧。", score: -3 },
+            { text: "時到時擔當，無米才煮番薯湯。", score: 3 }
         ]
     }
 ];
@@ -164,3 +164,4 @@ function showResult() {
 }
 
 showQuestion();
+
