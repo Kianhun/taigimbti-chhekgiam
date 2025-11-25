@@ -58,11 +58,11 @@ const questions = [
 
     // 判斷 (J) vs. 感知 (P)
     {
-        question: "你的生活風格比較像？",
+        question: "你ê生活風格較親像？",
         dichotomy: 'JP',
         answers: [
-            { text: "有計畫、有條理，喜歡照表操課。", score: -3 },
-            { text: "隨性、彈性，喜歡保持開放選項。", score: 3 }
+            { text: "有規律，提早按算，照計畫進行。", score: -3 },
+            { text: "佮意chhun-kiu，隨時調整。", score: 3 }
         ]
     },
     {
@@ -164,4 +164,5 @@ function showResult() {
 }
 
 showQuestion();
+
 
