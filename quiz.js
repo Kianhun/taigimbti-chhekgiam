@@ -5,10 +5,10 @@ const questions = [
         dichotomy: 'EI',
         answers: [
             { text: "誠閉思", score: -3 },
-            { text: "有較閉思", score: -1 },
+            { text: "小可閉思", score: -1 },
             { text: "無的確", score: 0 },
-            { text: "不止仔鑠奅", score: 1 },
-            { text: "誠鑠奅", score: 3 }
+            { text: "不止仔大範", score: 1 },
+            { text: "誠大範", score: 3 }
         ]
     },
     {
@@ -164,5 +164,6 @@ function showResult() {
 }
 
 showQuestion();
+
 
 
