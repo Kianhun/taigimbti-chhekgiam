@@ -25,11 +25,11 @@ const personalities = {
         description: "你是恬恬仔做閣gâu揹重擔ê人。做代誌照起工，所有的細節你攏會照顧甲到。你毋是ài展風神ê角色，毋過團體若有你絕對穩觸觸！"
     },
     "ESTP": {
-        name: "猛將 - 企業家",
+        name: "<a href='https://chhoe.taigi.info/TaijitToaSutian/6325'>猛將</a>",
         description: "你面對挑戰ê時陣，跤手會先做頭前，一面行動一面修正。"
     },
     "ENTP": {
-        name: "辯論家",
+        name: "<a title='12345'>辯論家</a>",
         description: "你佮意參別人做伙為著社會上有爭議ê代誌來激頭殼。"
     },
     "ESFP": {
@@ -66,6 +66,7 @@ const personalities = {
     }
     // 後續新增的項目會從這裡開始，記得在最後一個項目後不要加逗號
 };
+
 
 
 
